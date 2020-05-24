@@ -8,7 +8,7 @@ Manipulate the HTTP Vary header for Deno, compatible with Browser. Based on `htt
 ## API
 
 ```js
-import { vary, append } from "https://raw.githubusercontent.com/ako-deno/isIP/master/mod.ts";
+import { vary, append } from "https://raw.githubusercontent.com/ako-deno/vary/master/mod.ts";
 ```
 
 ### vary(header: Headers, field: string | string[]): void
