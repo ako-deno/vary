@@ -22,7 +22,7 @@ it listed in the current location.
 
 ```js
 // Append "Origin" to the Vary header of the response's header
-vary(res, 'Origin')
+vary(header, 'Origin')
 ```
 
 ### append(header: string, field: string | string[]): string
