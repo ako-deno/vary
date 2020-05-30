@@ -2,6 +2,7 @@
 
 [![tag](https://img.shields.io/github/tag/ako-deno/vary.svg)](https://github.com/ako-deno/vary/tags)
 ![vary-ci](https://github.com/ako-deno/vary/workflows/vary-ci/badge.svg)
+[![HitCount](http://hits.dwyl.com/ako-deno/vary.svg)](http://hits.dwyl.com/ako-deno/vary)
 
 Manipulate the HTTP Vary header for Deno, compatible with Browser. Based on `https://github.com/jshttp/vary`.
 
