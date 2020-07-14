@@ -232,7 +232,10 @@ test("append(header, field) when header empty should set value", function () {
 });
 
 test("append(header, field) when header empty should set value with array", function () {
-  assertStrictEquals(append("", ["Origin", "User-Agent"]), "Origin, User-Agent");
+  assertStrictEquals(
+    append("", ["Origin", "User-Agent"]),
+    "Origin, User-Agent",
+  );
 });
 
 test("append(header, field) when header empty should preserve case", function () {
@@ -293,7 +296,10 @@ test("append(header, field) when field is string should set value when vary head
 });
 
 test("append(header, field) when field is string should acept LWS", function () {
-  assertStrictEquals(append("", "  Accept     ,     Origin    "), "Accept, Origin");
+  assertStrictEquals(
+    append("", "  Accept     ,     Origin    "),
+    "Accept, Origin",
+  );
 });
 
 test("append(header, field) when field is string should handle contained *", function () {
